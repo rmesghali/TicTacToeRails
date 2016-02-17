@@ -1,0 +1,161 @@
+h1 {
+  font-family: Bangers;
+  margin-top: -0.5%;
+  margin-bottom: -0.5%;
+  text-shadow: 2px 2px red;
+  font-size: 70pt;
+  text-align: center;
+  color: yellow;
+}
+#banner {
+  font-family: Bangers;
+  text-shadow: 2px 2px red;
+  color: white;
+  font-size: 25pt;
+  text-align: center;
+}
+#section {
+  background-color: blue;
+  height: 20px;
+  border: 1px solid black;
+}
+#submitLine {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.grid {
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  width: 600px;
+  text-align: center;
+}
+.X {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/b3/94/65/b39465e1abe9ad7a2108c3e4841e55cf.jpg");
+  background-position: center;
+  background-size: contain;
+}
+.O {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/736x/55/40/7d/55407d754bd0ca45bd8fc499d37f2aef.jpg");
+  background-position: center;
+  background-size: contain;
+}
+#A1 {
+  height:200px;
+  width: 200px;
+  border: 2px solid red;
+  background-color: white;
+  background-repeat: no-repeat;
+}
+#A2 {
+  height:200px;
+  width: 200px;
+  border: 2px solid red;
+  background-color: white;
+  background-repeat: no-repeat;
+}
+#A3 {
+  height:200px;
+  width: 200px;
+  border: 2px solid red;
+  background-color: white;
+  background-repeat: no-repeat;
+}
+#B1 {
+  height:200px;
+  width: 200px;
+  border: 2px solid red;
+  background-color: white;
+  background-repeat: no-repeat;
+}
+#B2 {
+  height:200px;
+  width: 200px;
+  border: 2px solid red;
+  background-color: white;
+  background-repeat: no-repeat;
+}
+#B3 {
+  height:200px;
+  width: 200px;
+  border: 2px solid red;
+  background-color: white;
+  background-repeat: no-repeat;
+}
+#C1 {
+  height:200px;
+  width: 200px;
+  border: 2px solid red;
+  background-color: white;
+  background-repeat: repeat;
+}
+#C2 {
+  height:200px;
+  width: 200px;
+  border: 2px solid red;
+  background-color: white;
+  background-repeat: no-repeat;
+}
+#C3 {
+  height:200px;
+  width: 200px;
+  border: 2px solid red;
+  background-color: white;
+  background-repeat: no-repeat;
+}
+body {
+  background-image: url("https://img0.etsystatic.com/006/0/6191622/il_fullxfull.361181854_qqcp.jpg");
+}
+#submit {
+  margin-top: 5px;
+  width: 450px;
+  font-size: 15pt;
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+}
+#submit:hover {
+  background-color: yellow;
+  color: red;
+  text-shadow: 1px 1px blue;
+}
+#input1 {
+  color: red;
+  margin-top: 5px;
+  font-size: 15pt;
+  border: 2px solid yellow;
+}
+#input2 {
+  color: red;
+  margin-top: 5px;
+  font-size: 15pt;
+  border: 2px solid yellow;
+}
+#reset {
+  text-align: center;
+  width: 450px;
+  font-size: 15pt;
+  background-color: red;
+  color: yellow;
+  border: 2px solid black;
+}
+#reset:hover{
+  background-color: yellow;
+  color: red;
+  text-shadow: 1px 1px blue;
+}
+#resetButton {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+#footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: yellow;
+  margin-bottom: -20px;
+  height: 50px;
+  text-shadow: 1px 1px red;
+}

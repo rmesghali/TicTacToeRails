@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--This is the script to link our css page-->
+    <link rel= "stylesheet" type= "text/css" href= "TicTacToe.css"></link>
+    <!--This is the script that links our Jquery/JS page-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="TicTacToe.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+    <title> Tic Tac Toe </title>
+  </head>
+  <body>
+    <h1 id="h1"> Tic Tac Toe </h1>
+    <!--THe following div contains the text boxes for name input as well as the button to submit the names-->
+    <div id ="section"><hr></hr></div>
+    <div id = "submitLine">
+    <input id="input1" type="text" placeholder="Input Player 1"/>
+    <input id="submit" type="button" value="Submit"/>
+    <input id="input2" type="text" placeholder="Input Player 2"/>
+    </div>
+    <div id="resetButton">
+      <input type="button" value="Reset Board" id="reset"/>
+    </div>
+    <!--These are the rules of the game-->
+    <p id="banner"></p>
+    <!--This div encapsulates the entire table-->
+  <div class="grid">
+    <!--This is a table that is 3 X 3-->
+    <table>
+    <!-- Each row has an id tag for later reference-->
+      <tr id= "rowA">
+        <td id= "A1"></td>
+        <td id= "A2"></td>
+        <td id= "A3"></td>
+      </tr>
+    <!-- Each row has an id tag for later reference-->
+      <tr id= "rowB">
+        <td id= "B1"></td>
+        <td id= "B2"></td>
+        <td id= "B3"></td>
+      </tr>
+    <!-- Each row has an id tag for later reference-->
+      <tr id= "rowC">
+        <td id= "C1"></td>
+        <td id= "C2"></td>
+        <td id= "C3"></td>
+      </tr>
+    </table>
+  </div>
+<footer id="footer">A Ramin & Yosef Collaboration</footer>
+  </body>
+</html>
